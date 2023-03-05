@@ -32,6 +32,7 @@ public class StudentService {
         return student.getName();
     }
 
+
     public String updateMobileNo(StudentUpdateMobNoDto studentUpdateMobNoDto){
 
         Student orignalStudent=studentRepository.findById(studentUpdateMobNoDto.getId()).get();

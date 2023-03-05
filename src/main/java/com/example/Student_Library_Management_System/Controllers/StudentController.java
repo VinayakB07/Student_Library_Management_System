@@ -24,6 +24,8 @@ public class StudentController {
         return studentService.findNameByEmail(email);
     }
 
+
+
     @PutMapping("/update_mob")
     public String updateMobileNo(@RequestBody StudentUpdateMobNoDto studentReqDto){
 
